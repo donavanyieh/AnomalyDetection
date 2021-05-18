@@ -2,7 +2,7 @@
 
 <b>Tech Stack</b>
 <br/>
-Plotly, altair, Sklearn (Isolation Forest, Local Outlier Factor)
+NumPy, Pandas, Plotly, altair, Sklearn (Isolation Forest, Local Outlier Factor)
 <br/><br/>
 <b>Objective</b><br/>
 The goal of this project is to experiment with time-series data and identify data points which are seemingly unusual. Anomaly detection tasks are usually unsupervised due to the lack of labelled data available. Thus, we will be experimenting with different unsupervised models and creating visualizations to detect anomalous points. There are many use cases for anomaly detection, such as spikes in temperature of machines indicating overheating. In this notebook, we use real data of  EC2 CPU utilization from AWS CloudWatch.
