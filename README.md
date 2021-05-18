@@ -1,5 +1,6 @@
 # Unsupervised anomaly detection for EC2 CPU utilization
-
+#### View the notebook with interactive outputs here in Kaggle:<br>https://www.kaggle.com/yiehyuheng/unsupervised-anomaly-detection-lof-iforest
+<br>
 <b>Tech Stack</b>
 <br/>
 NumPy, Pandas, Plotly, altair, Sklearn (Isolation Forest, Local Outlier Factor)
@@ -12,9 +13,9 @@ EC2 CPU utilization from AWS Cloudwatch
 https://github.com/numenta/NAB
 <br/><br/>
 <b>Brief Overview</b><br/>
-We first do some feature engineering on the timestamps to generate the corresponding year, month, day, weekday, and hour of each datapoint. We then perform some visualizations to take a look at the trend of CPU utilization, and then perform unsupervised techniques to detect anomalous points.<br/>
-![anomalies](https://user-images.githubusercontent.com/31071751/118603208-35ecbb00-b7e6-11eb-81be-ac54de1a9f7e.JPG)
+We first do some feature engineering on the timestamps to generate the corresponding year, month, day, weekday, and hour of each datapoint. We then perform some visualizations to take a look at the trend of CPU utilization, and then perform unsupervised techniques to detect anomalous points.<br><br>
 
-View the full notebook here in Kaggle: https://www.kaggle.com/yiehyuheng/unsupervised-anomaly-detection-lof-iforest
+![anomalies](https://user-images.githubusercontent.com/31071751/118634565-3f395000-b805-11eb-95b8-9686559fdeb8.JPG)
+
 
 
